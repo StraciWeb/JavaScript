@@ -1,1 +1,1 @@
-# JavaScript
+1. Tema pentru acasa nr.1 Java Script, s-a conectat fisierul script.js, s-a realizat transmiterea unui mesaj prin trei metode, console.log(), document.write, alert(): branch: home-task-1;
