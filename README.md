@@ -1,2 +1,2 @@
 1. Tema pentru acasa nr.1 Java Script, s-a conectat fisierul script.js, s-a realizat transmiterea unui mesaj prin trei metode, console.log(), document.write, alert(): branch: home-task-1;
-2. Tema pentru acasa nr. partea 1, s-a creat fisierele index.html, main.js, in fisierul main.js s-a creat structura din elemente pentru calcularea in convertire a gradelor celsius in fahrenheit si invers.
+2. Tema pentru acasa nr. 2 partea 1, s-a creat fisierele index.html, main.js, in fisierul main.js s-a creat structura din elemente pentru calcularea in convertire a gradelor celsius in fahrenheit si invers.
