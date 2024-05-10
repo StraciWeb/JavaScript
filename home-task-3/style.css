@@ -1,0 +1,88 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    background-color: #496989;
+    padding: 20px;
+    text-align: center;
+    color: #496989;
+}
+
+.first__check {
+    background-color: #58A399;
+    padding: 10px;
+    color: #496989;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.second__check {
+    background-color: #58A399;
+    padding: 10px;
+    color: #496989;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.calculator {
+    background-color: #58A399;
+    padding: 10px;
+    color: #496989;
+    border-radius: 10px;
+}
+
+
+.calc__buttons__wrapper {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+.input__number {
+    padding: 10px 14px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #A8CD9F;
+    margin-right: 15px;
+}
+
+.btn {
+    width: 100px;
+    padding: 10px 14px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #A8CD9F;
+    font-weight: 600;
+    color: #496989;
+}
+
+.calc__btn {
+    width: 50px;
+    padding: 10px 14px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #A8CD9F;
+    font-weight: 600;
+    color: #496989;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.big__number {
+    color: green;
+}
+
+.small__number {
+    color: red;
+}
