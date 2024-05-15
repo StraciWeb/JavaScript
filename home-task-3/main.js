@@ -51,10 +51,10 @@ $calcSecondNum.placeholder = "Introduceti un nr.";
 $calcSecondNum.classList.add("input__number");
 
 const $resultText = document.createElement("p"); //mesaj la prima verificare
-$resultText.textContent = "In rezultat se va obitene un mesaj in depedenta de cifra introdusa";
+$resultText.textContent = "In rezultat se va obtine un mesaj in depedenta de cifra introdusa";
 
 const $secondResultText = document.createElement("p"); //mesaj la a doua verificare
-$secondResultText.textContent = "In rezultat se va obtine un mesaj in de pedenta de cifrele introduse";
+$secondResultText.textContent = "In rezultat se va obtine un mesaj in depedenta de cifrele introduse";
 
 const $calcResult = document.createElement("p");
 $calcResult.textContent = 0;
@@ -90,13 +90,14 @@ $btnFirts.onclick = function checkNumber() {
     console.log(number);
     if(number > 13) {
         let result = (number - 13) * 2;
-        $resultText.textContent = "Cifra introdusa este mai mare decit 13 si rezultatul final este " + result;
+        $resultText.textContent = "Cifra introdusa este " + number + " si este mai mare decit 13 si rezultatul final este " + result;
         $resultText.classList.add("big__number");
+        $resultText.classList.remove("small__number");
     }else{
-        $resultText.textContent = "Cifra introdusa este mai mica decit 13";
+        $resultText.textContent = "Cifra introdusa este " + number + " si este mai mica decit 13";
         $resultText.classList.add("small__number")
     }
-    // $input.value = "";
+    $input.value = "";
 }
 
 //functie la a doua verificare
@@ -108,8 +109,8 @@ $btnSecond.onclick = function checkSecondNumber() {
     }else {
         $secondResultText.textContent = "Ambele numere sunt pozitive sau egal cu 0, primul nr. este " + firstNumber + " al doilea nr. este " + secondNumber;
     }
-    // $secondInput.value = "";
-    // $threeInput.value = "";
+    $secondInput.value = "";
+    $threeInput.value = "";
 }
 
 //functie pentru adunare
@@ -130,7 +131,7 @@ $minusBtn.onclick = function minusNumbers () {
     $calcResult.textContent = result;
 }
 
-$multiplyBtn.onclick = function minusNumbers () {
+$multiplyBtn.onclick = function multiplyNumbers () {
     let firstNumber = Number($calcFirstNum.value);
     let secondNumber = Number($calcSecondNum.value);
     let result  = firstNumber * secondNumber;
@@ -138,7 +139,7 @@ $multiplyBtn.onclick = function minusNumbers () {
     $calcResult.textContent = result;
 }
 
-$divideBtn.onclick = function minusNumbers () {
+$divideBtn.onclick = function divideNumbers () {
     let firstNumber = Number($calcFirstNum.value);
     let secondNumber = Number($calcSecondNum.value);
     let result  = firstNumber / secondNumber;
