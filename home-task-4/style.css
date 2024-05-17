@@ -1,0 +1,134 @@
+body {
+    font-family: "Roboto Slab", serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    background-color: #9BCF53;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.main__title {
+    margin: 0;
+    margin-bottom: 15px;
+    color: #416D19;
+}
+
+.box {
+    border-radius: 15px;
+    background-color: #BFEA7C;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.angle__box {
+    border-bottom: 2px solid red;
+    overflow: hidden;
+    width: 500px;
+    margin: 0 auto;
+    height: 200px;
+    position: relative;
+}
+
+.angle__line {
+    border-bottom: 2px solid #008DDA;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    /* transform: rotate(30deg); */
+}
+
+.input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 210px;
+    margin-bottom: 15px;
+    background-color: #FFF67E;
+    color: #008DDA;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 100px;
+    margin-bottom: 15px;
+    background-color: #FFF67E;
+    color: #008DDA;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.angle__descr {
+    margin: 0;
+    margin-bottom: 15px;
+    color: #008DDA;
+}
+
+.box__title {
+    margin: 0;
+    margin-bottom: 15px;
+    color: #008DDA;
+}
+
+.boolean {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FF5F00;
+    margin: 0 auto;
+    color: #FFFAE6;
+}
+
+.undefined {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #A0DEFF;
+    margin: 0 auto;
+    color: #FFF9D0;
+}
+
+.null {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #006769;
+    margin: 0 auto;
+    color: #FFF9D0;
+}
+
+.number {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFFF80;
+    margin: 0 auto;
+    color: #FF0080;
+}
+
+.string {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #002379;
+    margin: 0 auto;
+    color: #FFF9D0;
+}
+
+.country__text {
+    margin: 0;
+    color: #008DDA;
+    font-weight: 600;
+}

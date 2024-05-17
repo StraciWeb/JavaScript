@@ -1,0 +1,8 @@
+.container {
+    max-width: 800px;
+    background-color: #c5c5c5;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
