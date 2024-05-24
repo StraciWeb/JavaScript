@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema pentru acasa nr. 7</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Tema pentru acasa nr. 7</h1>
+        <div class="box">
+            <h2>Buton Contor</h2>
+        <input type="button" id="click" class="click__btn">
+        </div>
+        <div class="box">
+            <h2>Eveniment keypress</h2>
+            <div class="letters">
+                <img src="img/letter-a.png" alt="litera a">
+                <img src="img/letter-b.png" alt="litera b">
+                <img src="img/letter-c.png" alt="litera c">
+                <img src="img/letter-d.png" alt="litera d">
+            </div>
+            <p id="keypress__text">Accesati de la tastatură una din litere din imagine</p>
+            <p id="keypress__result"></p>
+        </div>
+        <div class="box box__form">
+            <h2>Inregistrare la Curs</h2>
+            <form action="" class="form">
+                <input class="input" type="text" placeholder="Numele, prenumele" id="input__name">
+                <span class="error" id="error_name"></span>
+                <input class="input" type="number" placeholder="Virsta" id="input__age">
+                <span class="error" id="error_age"></span>
+                <input class="input" type="email" placeholder="Email" id="input__email">
+                <span class="error" id="error_email"></span>
+                <select class="input" name="curs" id="curs">
+                    <option value="" selected>Alege un curs</option>
+                    <option value="ai for busines">Applied AI Tools For Business</option>
+                    <option value="python">Python + Mini Project With AI</option>
+                    <option value="front-end">Front-End Development</option>
+                </select>
+                <span class="error" id="error_curs"></span>
+                <button class="submit__btn" type="submit" id="submit__btn">Inregistreaza</button>
+                <div class="succes none" id="succes">
+                    <img src="img/succes.png" alt="Succes" class="succes__img">
+                    <p class="succes__text">Succes, ati fost inregistrat</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
