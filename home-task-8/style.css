@@ -1,0 +1,53 @@
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+h2, p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.section__title, .main__title {
+    text-align: center;
+}
+
+.recipe__item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.recipe__title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.recipe__img {
+    width: 150px;
+    height: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.book__item {
+    width: 300px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.auto__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.auto__item {
+    width: 100%;
+}
