@@ -128,6 +128,7 @@ function getRecipes(obj) {
 
     //ingredientele
     let ingredients = obj[key].ingredients;
+ 
     
     for (const key in ingredients) {
         const ingredientItem = document.createElement("li");
@@ -153,7 +154,6 @@ getRecipes(recipes);
 
 function getBooks(obj) {
     for (const key in obj) {
-      console.log(obj[key])
       const bookItem = document.createElement("li");
       const moreBtn = document.createElement("button");
       const bookInfo = document.createElement("div");
