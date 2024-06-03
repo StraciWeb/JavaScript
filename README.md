@@ -9,3 +9,4 @@
 8. Tema pentru acasa nr. 8, s-a creat fisierul index.html, main.js, s-a elaborat functia de afisare a retetelor, carti din biblioteca, automobile, extrase din un obiect cu diferite proprietati pentru fiecare element.
 9. Tema pentru acasa nr. 9, s-a creat fisierul index.html, main.js, s-a elaborat functia de afisare informatie despre o carte citita la ce etapa este si cit mai este de citit, formarea unui dreptunghi cu calcularea ariei si a perimetrului folosind metode de get si set.
 10. Tema pentru acasa nr. 10, s-a creat fisierul index.html, main.js, s-a elaborat functia de extragere dintro data denumirea lunei, denumirea zilei din saptamina, verificare daca doua dati coincind cu o zi din saptamina, comparare doua dati daca sunt mai mari sau mai mici.
+11. Tema pentru acasa nr. 11, s-a creat fisierul index.html, main.js, s-a elaborat lista studentilor cu filtrare dupa toate cimpurile existente, afisarea dimensiunii paginii.
