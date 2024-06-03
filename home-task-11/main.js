@@ -289,17 +289,19 @@ mediaBadSortBtn.addEventListener("click", () => {
 
 getStudentsList(students);
 
-// ageSortBtn.addEventListener("click", ()=> {
-//     sortStudentsByAge(students);
-// })
+ageSortBtn.addEventListener("click", ()=> {
+    sortStudentsByAge(students);
+})
 
-// nameSortBtn.addEventListener("click", ()=> {
-//     sortStudentByName(students);
-// })
+nameSortBtn.addEventListener("click", ()=> {
+    sortStudentByName(students);
+})
 
-window.addEventListener("click", () => {
-    console.log(window.innerHeight);
-    console.log(window.innerWidth);
+const windowDimension = document.getElementById("window__width");
+window.addEventListener("resize", () => {
+    let windowWidth = window.innerWidth;
+    let windowHeight = window.innerHeight;
+    windowDimension.textContent = "Dimensiunile paginii sunt: Latimea: " +  windowWidth + " Inaltimea: " + windowHeight;
 })
 
 
