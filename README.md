@@ -11,3 +11,4 @@
 10. Tema pentru acasa nr. 10, s-a creat fisierul index.html, main.js, s-a elaborat functia de extragere dintro data denumirea lunei, denumirea zilei din saptamina, verificare daca doua dati coincind cu o zi din saptamina, comparare doua dati daca sunt mai mari sau mai mici.
 11. Tema pentru acasa nr. 11, s-a creat fisierul index.html, main.js, s-a elaborat lista studentilor cu filtrare dupa toate cimpurile existente, afisarea dimensiunii paginii.
 12. Tema pentru acasa nr. 12, s-a creat fisierul index.html, main.js, s-a elaborat expresii regulate pentru a filtra si a valida anumite evenimente in pagina, s-a elaborat forma de inregistrare cu validarea input prin adaugare de pattern la input ulterior cu verificare "validity" si afisare mesaj cu metoda setCustomValidity();
+13. Tema pentru acasa nr. 13, s-a creat fisierul index.html, main.js, s-a elaborat 3 clase cu crearea proprietatilor si metode;
