@@ -2,12 +2,12 @@
 const regexp = /[0-9]/g;
 const regexp1 = /\d/g;
 //expresie pentru extragere cuvinde ce se incep cu litera mare
-const regexpCapitalize = /\b[A-Z][A-Z]+|\b[A-Z][a-z]*\b/g;
-const str = "sds8sd9s9s9fd9g0-d-0s7s56s548s9s8988s";
-const str1 = "Lorem Ipsum dolor sit Amet consectetur Adipisicing elit. DUCIMUS elit Provident magnam Minus, dolorum elit. sit Amet lorem elit Amet"
+const regexpCapitalize = /\b[A-Z][a-z]*\b/g;
+const str = "sds8sd9s9s9fd9g0-d-0s7s56s548s9 s 89 8s";
+const str1 = "Lorem Ipsum dolor sit Amet consectetur Adipisicing elit. DUCIMUS elit PROVident magnam Minus, dolorum elit. sit Amet lorem elit Amet"
 
 //expresie extragere nume domeniu din email
-const regExpresDomain = /[A-Za-z]+\.[A-Za-z]+/i;
+const regExpresDomain = /@([^\s@]+)/;
 
 //expresie extragere duplicate din string
 
@@ -16,9 +16,13 @@ const regExpresDomain = /[A-Za-z]+\.[A-Za-z]+/i;
 let numbers = str.match(regexp);
 let numbers1 = str.match(regexp1);
 
+console.log(numbers);
+
 
 //extragere cuvinte ce se incep cu litera mare
 let capitalizeFirstLeter = str1.match(regexpCapitalize);
+
+console.log(capitalizeFirstLeter);
 
 
 //transformare fraza in elemente cu litere mici
@@ -34,10 +38,11 @@ let newEmail = "testemail@test.com";
 
 //extragerea nume domeniu din email
 function getDomain(email) {
-    return email.match(regExpresDomain);
+    const match =  email.match(regExpresDomain);
+    return match ? match[1] : null
 }
 
-// console.log(getDomain(newEmail));
+console.log(getDomain(newEmail));
 
 const form = document.getElementById("form");
 const userEmail = document.getElementById("email");
