@@ -66,17 +66,19 @@ console.log(firstPerson.personalEmail);
 console.log("------------------------------------------------");
 
 class BankAcount {
-    #acountNumber = "";
-    #balance = 0;
+    #acountNumber;
+    #balance;
     constructor() {
         this.acountType = "fizica";
+        this.#balance = 0;
     }
     
     deposit(addBalance) {
-        return this.#balance + addBalance;
+        return this.#balance += addBalance;
     }
     withdraw(minusBalance) {
-        return this.deposit() - minusBalance;
+        this.#balance -= minusBalance;
+        return minusBalance;
     }
     checkBalance() {
         return this.#balance;
@@ -87,16 +89,13 @@ class BankAcount {
     get acountNumber () {
         return this.#acountNumber;
     }
-    getBalance() {
-        return this.#balance;
-    }
 }
 
 let client = new BankAcount();
 
 console.log("Depositul Dvs a fost suplinit cu " + client.deposit(1000) + "lei");
 client.acountNumber = "22445343A5D50FG"
+console.log("Din depositul Dvs a fost extrasa suma de " + client.withdraw(250) + " lei, sold in deposit este " + client.checkBalance() + " lei");
 console.log("Nr. Cont Bancar: " + client.acountNumber);
-console.log(client.getBalance());
 
 
