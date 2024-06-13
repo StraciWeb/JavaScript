@@ -14,3 +14,4 @@
 13. Tema pentru acasa nr. 13, s-a creat fisierul index.html, main.js, s-a elaborat 3 clase cu crearea proprietatilor si metode;
 14. Tema pentru acasa nr. 14, s-a creat fisierul index.html, main.js, s-a creat un obiect prin metoda Map() si Set() cu efectuarea operatiunilor de adaugare, eliminare, iterare elemente;
 14. Tema pentru acasa nr. 15, s-a creat fisierul index.html, main.js, s-a creat functii care utilizeaza metoda try / catch cu afisarea erorilor in caz de neexecutare conditiilor in functie;
+15. Tema pentru acasa nr. 16, s-a creat fisierul index.html, main.js, s-a creat functii care utilizeaza obiectul promise.
